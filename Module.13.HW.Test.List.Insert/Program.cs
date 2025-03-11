@@ -18,6 +18,6 @@ internal class Program
 
         UsersNames.Insert(2, "Павел"); // Добавляем имя по индексу в середину списка
 
-        Console.WriteLine($"Вставка в  словарь: {stopWatch.Elapsed.TotalMilliseconds}  мс"); // Выводим результат
+        Console.WriteLine($"Вставка в обычный список: {stopWatch.Elapsed.TotalMilliseconds}  мс"); // Выводим результат
     }
 }
